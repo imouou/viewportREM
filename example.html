@@ -4,18 +4,26 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 <title>viewportREM 示例</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="example.css">
 <script src="viewportREM.js"></script>
 <script>
   // 初始化页面的响应式处理
-	viewportREM()
+    viewportREM()
 </script>
-<style>
-    html { font-size:100px; }
-    /* 一个540px设计稿量到的元素大小*/
-    .slide { width:5rem; height:3rem; }
-</style>
 </head>
 <body>
-    <img class="slide" src="http://pic33.nipic.com/20130924/6331308_083811463155_2.jpg" />
+<!-- 页面的结构按照example.png 做了个大概的例子,这个例子在手机端跟在手机端看到的图片是一摸一样的,有兴趣的可以继续把示例完善. -->
+    <div class="page">
+        <header>我的</header>
+        <div class="person-info">
+            <!-- 个人信息 -->
+        </div>
+        <ul class="list">
+            <li>我的收藏</li>
+            <li>播放记录</li>
+            <li>测试记录</li>
+            <li>我的下载</li>
+        </ul>
+    </div>
 </body>
 </html>
