@@ -1,6 +1,9 @@
+@charset "utf-8";
 
+/* 样式参照example.png的大小,把量到的大小除以100,就是该元素的真实大小. 除了1px, 1px转成rem的边框会在部分手机看不到. */
     html { 
         font-size:100px;
+        -webkit-text-size-adjust:100%;
     }
     * {
         box-sizing: border-box;
