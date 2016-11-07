@@ -1,8 +1,14 @@
 
-/**
- * Detail: viewportREM 是一个手机响应式适配脚本,通过该脚本可以让页面按设计稿的尺寸完美展现.
+/*---------------------------------------
  * version: 1.0
  * Author: wilson
+ * CreateDate: 2016-11-1
+ ----------------------------------------*/
+
+/**
+ * [viewportREM 是一个手机响应式适配脚本,通过该脚本可以让页面按设计稿的尺寸完美展现.]
+ * @param  {[number]} [size] [字体大小]
+ * @param  {[type]} [base] [设计稿大小]
  */
 function viewportREM(size,base) {
       
