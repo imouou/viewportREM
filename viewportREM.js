@@ -1,7 +1,9 @@
 
 /*---------------------------------------
  * version: 1.0
- * Author: wilson
+ * Author: o仔
+ * Homepage: https://github.com/imouou/viewportREM
+ * Email: imouou@hotmail.com
  * CreateDate: 2016-11-1
  ----------------------------------------*/
 
