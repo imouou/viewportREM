@@ -1,28 +1,30 @@
 @charset "utf-8";
 
-// 说明: 如果你也是使用540作为基数, 引入这份文件可以解决 页面庞大的时候出现的闪现问题.
+/** 
+ * 说明: 如果你也是使用540作为基数, 页面引入这份CSS文件可以解决 页面庞大的时候出现的闪现问题.
+ */
 
-// 安卓系列常见及特殊分辨率机型
+/* 安卓系列常见及特殊分辨率机型*/
 
 @media (min-width: 240px) and (max-width:240px) { 
     html {
         font-size:44.44px;
     }
 }
-// mx5
+/* mx5*/
 @media (min-width: 360px) and (max-width:360px) { 
     html {
         font-size:66.67px;
     }
 }
 
-// mx4
+/* mx4*/
 @media (min-width: 384px) and (max-width:384px){ 
     html {
         font-size: 71.11px;
     }
 }
-// nexus6
+/* nexus6*/
 @media (min-width: 412px) and (max-width:412px) { 
     html {
         font-size: 76.3px;
@@ -35,20 +37,20 @@
     }
 }
 
-// mx4 pro
+/* mx4 pro*/
 @media (min-width: 512px) and (max-width:512px)  { 
     html {
         font-size: 94.81px;
     }
 }
-// 三星note4 
+/* 三星note4 */
 @media (min-width: 480px) and (max-width:480px)  { 
     html {
         font-size: 88.89px;
     }
 }
 
-// iphone4 iphone5 iphone5c
+/* iphone4 iphone5 iphone5c*/
 @media (min-width: 320px) and (max-width:320px)  { 
     html {
         font-size:59.26px;
@@ -63,26 +65,26 @@
         }
     }
 }
-// iphone6 iphone7
+/* iphone6 iphone7*/
 @media (min-width: 375px) and (max-width:375px)  { 
     html {
         font-size:69.44px;
     }
 }
-// iphone6 plus
+/* iphone6 plus*/
 @media (min-width: 414px) and (max-width:414px)  { 
     html {
         font-size:76.67px;
     }
 }
-// iphone7 plus
+/* iphone7 plus*/
 @media (min-width: 540px) and (max-width:540px)  { 
     html {
         font-size:100px;
     }
 }
 
-// ipad 的所有尺寸
+/* ipad 的所有尺寸*/
 @media (min-width: 768px) and (max-width:768px)  { 
     html {
         font-size:70px;
