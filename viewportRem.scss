@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+// 如果你也是使用540作为基数, 引入这份文件可以解决 页面庞大的时候出现的闪现问题.
+
+// 安卓系列常见及特殊分辨率机型
+
+@media (min-width: 240px) and (max-width:240px) { 
+    html {
+        font-size:44.44px;
+    }
+}
+// mx5
+@media (min-width: 360px) and (max-width:360px) { 
+    html {
+        font-size:66.67px;
+    }
+}
+
+// mx4
+@media (min-width: 384px) and (max-width:384px){ 
+    html {
+        font-size: 71.11px;
+    }
+}
+// nexus6
+@media (min-width: 412px) and (max-width:412px) { 
+    html {
+        font-size: 76.3px;
+    }
+}
+// nexus6p
+@media (min-width: 435px) and (max-width:435px)  { 
+    html {
+        font-size: 80.56px;
+    }
+}
+
+// mx4 pro
+@media (min-width: 512px) and (max-width:512px)  { 
+    html {
+        font-size: 94.81px;
+    }
+}
+// 三星note4 
+@media (min-width: 480px) and (max-width:480px)  { 
+    html {
+        font-size: 88.89px;
+    }
+}
+
+// iphone4 iphone5 iphone5c
+@media (min-width: 320px) and (max-width:320px)  { 
+    html {
+        font-size:59.26px;
+    }
+    body {
+        font-size:.22rem;
+    }
+
+    .#{$namespace}dialog  {
+        .#{$namespace}dialog-main {
+            font-size:.22rem;
+        }
+    }
+}
+// iphone6 iphone7
+@media (min-width: 375px) and (max-width:375px)  { 
+    html {
+        font-size:69.44px;
+    }
+}
+// iphone6 plus
+@media (min-width: 414px) and (max-width:414px)  { 
+    html {
+        font-size:76.67px;
+    }
+}
+// iphone7 plus
+@media (min-width: 540px) and (max-width:540px)  { 
+    html {
+        font-size:100px;
+    }
+}
+
+// ipad 的所有尺寸
+@media (min-width: 768px) and (max-width:768px)  { 
+    html {
+        font-size:70px;
+    }
+}
+@media (min-width: 1024px) and (max-width:1024px)  { 
+    html {
+        font-size:70px;
+    }
+}
+@media (min-width: 1536px) and (max-width:1536px)  { 
+    html {
+        font-size:70px;
+    }
+}
+@media (min-width: 2048x) and (max-width:2048px)  { 
+    html {
+        font-size:70px;
+    }
+}
+@media (min-width: 2732px) and (max-width:2732px)  { 
+    html {
+        font-size:70px;
+    }
+}
